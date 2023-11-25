@@ -1,0 +1,7 @@
+{
+	"name": "hnhonnguyen_gohugo",
+	"image": "hugomods/hugo:0.120.4",
+	"forwardPorts": [
+		1313
+	]
+}
