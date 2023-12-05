@@ -1,4 +1,52 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: hnhonnguyen
+title: hnhonnguyen 
 theme: "PaperMod"
+
+params:
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  profileMode:
+    enabled: true
+    title: Nhon Nguyen
+    subtitle: "I’m a data engineer who loves numbers and big data technologies. I enjoy building scalable and reliable data pipelines that can handle complex business problems"
+    imageUrl: "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/348561869_243318058346016_3722460676299578043_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6d8UODehMLIAX-ox5v0&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfAHy9tkG1L5yPy80p6Jpg77et8wleYE6dba8PS5JnLvrg&oe=6566092A" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/balu068"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/nhonnguyen1908/"
+
+  
+  cover:
+    linkFullImanges: true
+    responsiveImages: true
+  
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: blogs/
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: projects/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 15
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: archives/
+      weight: 25
